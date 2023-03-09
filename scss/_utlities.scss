@@ -6,8 +6,10 @@ $primaryColor: #fa983a;
 $secColor: #fad390;
 $blackColor: #262626;
 $lightBg: #f6f6f6;
+$paddinglg: 120px;
 body {
   font-weight: $font-sm;
+  font-family: "Poppins", sans-serif;
 }
 p {
   font-weight: $font-sm;
@@ -26,6 +28,13 @@ h6 {
 .title {
   font-size: 100px;
   font-weight: $font-lg;
+}
+.title-md {
+  font-size: 60px;
+  font-weight: 1000;
+}
+.title-sm {
+  font-size: 35px;
 }
 
 .btn-hero {
